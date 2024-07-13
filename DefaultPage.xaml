@@ -1,0 +1,10 @@
+<Page x:Class="FacultyApp.DefaultPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="DefaultPage">
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Button Content="Add Department" Click="AddDepartment_Click" Width="150" Margin="10"/>
+        <Button Content="Add New Lecturer" Click="AddLecturer_Click" Width="150" Margin="10"/>
+        <Button Content="Preview" Click="Preview_Click" Width="150" Margin="10"/>
+    </StackPanel>
+</Page>

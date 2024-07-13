@@ -1,0 +1,20 @@
+<Page x:Class="FacultyApp.AddLecturerPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="AddLecturerPage">
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock Text="Choose Department" FontSize="20" Margin="10"/>
+        <ItemsControl Name="DepartmentButtonsPanel" Margin="10">
+            <!-- Department buttons will be dynamically generated -->
+            <Button>JIL</Button>
+            <Button>PUL</Button>
+            <Button>CIL</Button>
+        </ItemsControl>
+        <Label>Lecturer Name</Label>
+        <TextBox Name="LecturerNameTextBox" Width="200" Margin="10" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="Add" Click="Add_Click" Width="75" Margin="5"/>
+            <Button Content="Cancel" Click="Cancel_Click" Width="75" Margin="5"/>
+        </StackPanel>
+    </StackPanel>
+</Page>

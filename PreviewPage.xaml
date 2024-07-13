@@ -1,0 +1,15 @@
+<Page x:Class="FacultyApp.PreviewPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="PreviewPage">
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock Text="Departments and Lecturers" FontSize="20" Margin="10"/>
+        <ItemsControl Name="DepartmentsList" Margin="10">
+            <!-- Department and lecturer lists will be dynamically generated -->
+        </ItemsControl>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="Print" Click="Print_Click" Width="75" Margin="5"/>
+            <Button Content="Cancel" Click="Cancel_Click" Width="75" Margin="5"/>
+        </StackPanel>
+    </StackPanel>
+</Page>
